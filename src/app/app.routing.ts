@@ -13,6 +13,10 @@ const routes: Routes = [
     loadChildren: `./restaurant/restaurant.module#RestaurantModule`
   },
   {
+    path: 'plan',
+    loadChildren: './client-plan/client-plan.module#ClientPlanModule'
+  },
+  {
     path: '**',
     redirectTo: '/admin/plan'
   }

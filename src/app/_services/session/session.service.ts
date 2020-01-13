@@ -36,6 +36,7 @@ export class SessionService {
       login: '',
       password: '',
       method: 'authorize',
+      company: '5dea62d620e91a13c99c0075',
       ...credentials
     };
 

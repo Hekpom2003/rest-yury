@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  API_URL: 'http://176.112.219.104:65480/api'
+  production: true,
+  API_URL: 'https://bookee.one/api'
 };
 
 /*
